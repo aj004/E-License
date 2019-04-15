@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/s1"
+        android:layout_height="900dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                app:srcCompat="@drawable/main1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/i1"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimary"
+                android:layout_toStartOf="@+id/mob" />
+
+
+            <TextView
+                android:layout_below="@+id/t3"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:id="@+id/t4"
+                android:layout_width="50dp"
+                android:text="CH NO : "
+                android:layout_marginLeft="5dp"
+                android:textSize="10sp"
+                android:layout_height="12dp" />
+            <TextView
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/mob"
+                android:layout_width="130dp"
+                android:textSize="10sp"
+                android:layout_height="12dp"
+                android:layout_toEndOf="@+id/t4"
+                android:layout_alignTop="@+id/t4" />
+
+
+            <TextView
+                android:text="O SNO : "
+                android:layout_width="50dp"
+                android:layout_toEndOf="@+id/mob"
+                android:id="@+id/t5"
+                android:layout_height="12dp"
+                android:textSize="10sp"
+                android:layout_alignStart="@+id/t9"
+                android:layout_alignTop="@+id/mob" />
+
+            <TextView
+                android:layout_below="@+id/t4"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:id="@+id/t6"
+                android:layout_width="50dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="10sp"
+                android:text="E SNO:" />
+
+            <TextView
+                android:text="REGD.UPTO : "
+                android:layout_width="50dp"
+                android:layout_toEndOf="@+id/esno"
+                android:id="@+id/t7"
+                android:layout_marginRight="1dp"
+                android:layout_height="12dp"
+                android:textSize="10sp"
+                android:layout_alignTop="@+id/esno"
+                android:layout_alignStart="@+id/t5" />
+
+            <TextView
+                android:layout_below="@+id/t6"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:id="@+id/t8"
+                android:layout_marginLeft="5dp"
+                android:layout_width="50dp"
+                android:text="MFR : "
+                android:layout_height="12dp"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="12dp"
+                android:layout_marginTop="5dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/swd"
+                android:layout_below="@+id/name"
+                android:layout_toEndOf="@+id/t12"
+                android:textSize="10sp" />
+
+            <TextView
+                android:text="ADDRESS   :    "
+                android:layout_width="80dp"
+                android:layout_height="12dp"
+                android:id="@+id/t13"
+                android:layout_alignStart="@+id/t12"
+                android:textSize="10sp"
+                android:layout_alignTop="@+id/address" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:id="@+id/address"
+                android:layout_below="@+id/swd"
+                android:layout_toEndOf="@+id/t13"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:text="MODEL   :    "
+                android:layout_height="12dp"
+                android:id="@+id/t21"
+                android:layout_width="90dp"
+                android:layout_below="@+id/address"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="12dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_toEndOf="@+id/t21"
+                android:id="@+id/model"
+                android:textSize="10sp"
+                android:layout_alignTop="@+id/t21" />
+
+            <TextView
+                android:text="NO OF CYL : "
+                android:layout_height="12dp"
+                android:id="@+id/t23"
+                android:layout_width="90dp"
+                android:layout_below="@+id/t21"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="12dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_toEndOf="@+id/t23"
+                android:id="@+id/noc"
+                android:textSize="10sp"
+                android:layout_alignTop="@+id/t23" />
+
+
+            <TextView
+                android:text="WHEEL BASE: "
+                android:layout_width="90dp"
+                android:layout_height="12dp"
+                android:id="@+id/t24"
+                android:layout_toStartOf="@+id/vhecl"
+                android:textSize="10sp"
+                android:layout_alignTop="@+id/noc" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="12dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/wheel"
+                android:layout_toEndOf="@+id/t24"
+                android:textSize="10sp"
+                android:layout_alignTop="@+id/t24" />
+
+            <!--                             -->
+            <TextView
+                android:text="MFG DT :"
+                android:layout_height="12dp"
+                android:id="@+id/t28"
+                android:layout_width="90dp"
+                android:layout_below="@+id/t23"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="12dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_toEndOf="@+id/t28"
+                android:id="@+id/mfg"
+                android:textSize="10sp"
+                android:layout_alignTop="@+id/t28" />
+
+
+            <!--                               -->
+
+            <TextView
+                android:text="FUEL   :"
+                android:layout_height="12dp"
+                android:id="@+id/t25"
+                android:layout_width="90dp"
+                android:layout_below="@+id/t28"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="12dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_toEndOf="@+id/t25"
+                android:id="@+id/fuel"
+                android:textSize="10sp"
+                android:layout_alignTop="@+id/t25" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="12dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/seating"
+                android:layout_toEndOf="@+id/t26"
+                android:textSize="10sp"
+                android:layout_alignTop="@+id/t26" />
+
+            <TextView
+                android:text="COLOR   :    "
+                android:layout_height="12dp"
+                android:id="@+id/t27"
+                android:layout_width="90dp"
+                android:layout_below="@+id/t25"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:text="VHE CL"
+                android:layout_width="50dp"
+                android:id="@+id/t9"
+                android:layout_height="12dp"
+                android:textSize="10sp"
+                android:layout_toStartOf="@+id/vhecl"
+                android:layout_alignTop="@+id/mfr" />
+
+
+            <TextView
+                android:text="REG NO : MH12PB0554"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:id="@+id/t3"
+                android:textSize="18sp"
+                android:layout_below="@+id/i1"
+                android:layout_alignParentStart="true"
+                android:layout_height="20dp" />
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:id="@+id/i3"
+                app:srcCompat="@drawable/barcode"
+                android:layout_below="@+id/color"
+                android:layout_alignEnd="@+id/seating"
+                android:layout_height="90dp"
+                android:layout_width="140dp" />
+
+            <ImageView
+                android:id="@+id/i2"
+                app:srcCompat="@drawable/logo"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/t27"
+                android:layout_alignStart="@+id/t6"
+                android:layout_alignBottom="@+id/i3"
+                android:layout_height="90dp"
+                android:layout_width="140dp" />
+
+            <TextView
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/mfr"
+                android:layout_width="130dp"
+                android:layout_height="12dp"
+                android:layout_marginTop="5dp"
+                android:textSize="10sp"
+                android:layout_alignBaseline="@+id/t8"
+                android:layout_alignBottom="@+id/t8"
+                android:layout_toEndOf="@+id/t6" />
+
+            <TextView
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/esno"
+                android:layout_width="130dp"
+                android:textSize="10sp"
+                android:layout_alignBaseline="@+id/t6"
+                android:layout_alignBottom="@+id/t6"
+                android:layout_toEndOf="@+id/t6"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:text="S/W/D     :    "
+                android:layout_height="12dp"
+                android:id="@+id/t12"
+                android:layout_width="80dp"
+                android:textSize="10sp"
+                android:layout_alignBaseline="@+id/swd"
+                android:layout_alignBottom="@+id/swd"
+                android:layout_toStartOf="@+id/name" />
+
+            <TextView
+                android:text="Name     :    "
+                android:id="@+id/t11"
+                android:layout_width="80dp"
+                android:layout_height="12dp"
+                android:textSize="10sp"
+                android:layout_below="@+id/t9"
+                android:layout_alignEnd="@+id/model"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:layout_width="90dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/regd"
+                android:layout_height="12dp"
+                android:textSize="10sp"
+                android:layout_alignBottom="@+id/t7"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/t7" />
+
+            <TextView
+                android:layout_width="90dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/vhecl"
+                android:layout_height="12dp"
+                android:textSize="10sp"
+                android:layout_alignBaseline="@+id/t9"
+                android:layout_alignBottom="@+id/t9"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="12dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/name"
+                android:textSize="10sp"
+                android:layout_alignBaseline="@+id/t11"
+                android:layout_alignBottom="@+id/t11"
+                android:layout_toEndOf="@+id/t11" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="12dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/color"
+                android:textSize="10sp"
+                android:layout_alignBaseline="@+id/t27"
+                android:layout_alignBottom="@+id/t27"
+                android:layout_toEndOf="@+id/t27" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="12dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/cucap"
+                android:textSize="10sp"
+                android:layout_alignBaseline="@+id/t22"
+                android:layout_alignBottom="@+id/t22"
+                android:layout_toEndOf="@+id/t22" />
+
+            <TextView
+                android:text="CU CAP    :    "
+                android:layout_width="90dp"
+                android:layout_height="12dp"
+                android:id="@+id/t22"
+                android:textSize="10sp"
+                android:layout_alignBaseline="@+id/model"
+                android:layout_alignBottom="@+id/model"
+                android:layout_alignStart="@+id/t24" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="12dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/unladen"
+                android:textSize="10sp"
+                android:layout_alignBaseline="@+id/t29"
+                android:layout_alignBottom="@+id/t29"
+                android:layout_toEndOf="@+id/t29" />
+
+            <TextView
+                android:text="UNLADEN WT :"
+                android:layout_width="90dp"
+                android:layout_height="12dp"
+                android:id="@+id/t29"
+                android:textSize="10sp"
+                android:layout_alignBaseline="@+id/mfg"
+                android:layout_alignBottom="@+id/mfg"
+                android:layout_alignStart="@+id/t24" />
+
+            <TextView
+                android:layout_width="90dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/osno"
+                android:layout_height="12dp"
+                android:textSize="10sp"
+                android:layout_alignBaseline="@+id/t5"
+                android:layout_alignBottom="@+id/t5"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:text="SEATING C :"
+                android:layout_width="90dp"
+                android:layout_height="12dp"
+                android:id="@+id/t26"
+                android:textSize="10sp"
+                android:layout_alignBaseline="@+id/fuel"
+                android:layout_alignBottom="@+id/fuel"
+                android:layout_alignStart="@+id/t29" />
+
+            <TextView
+                android:text="            Issuing RTO/DTO:Pune,Maharashtra"
+                android:id="@+id/t2"
+                android:layout_width="300dp"
+                android:textSize="12sp"
+                android:layout_below="@+id/t1"
+                android:layout_toEndOf="@+id/i1"
+                android:layout_height="18dp"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:text=" VEHICLE REGISTRATION CERTIFICATE"
+                android:id="@+id/t1"
+                android:layout_width="300dp"
+                android:textSize="16sp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/i1"
+                android:layout_height="22dp"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:layout_below="@+id/i3"
+                android:layout_toStartOf="@+id/seating"
+                android:layout_marginTop="25dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="12sp"
+                android:text="This Vehicle Registration certificate is generated by DigiLocker as per data provided by the issuning authority in the National Registry of Ministry of Road Transport and Highways" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

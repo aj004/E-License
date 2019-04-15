@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <EditText
+                android:id="@+id/name_r"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" Name"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/swd_r"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" S/W/D"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/addr_r"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" ADDRESS"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/ch_no"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" CH NO"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/e_sno"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" E SNO"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/mfr"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" MFR"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/o_sno"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" MODEL"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/regd_upto"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" REGD UPTO"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/vhe_cl"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" VHE CL"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/model"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" MODEL"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/no_of_cyl"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" NO OF CYL"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/mfg_dt"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" MFG DT"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/fuel"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" FUEL"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/color"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" COLOR"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/cu_cap"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" CU CAP"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/wheel_base"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" WHEEL BASE"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/unladen_wt"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" UNLADEN WT"
+                android:padding="1dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/seating_c"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+
+                android:hint=" SEATING C"
+                android:padding="1dp"
+                android:inputType="text" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:id="@+id/Register_r"
+                android:textSize="27dp"
+                android:layout_marginRight="70dp"
+                android:padding="15dp"
+                android:background="#f26c78"
+                android:text="REGISTER"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
